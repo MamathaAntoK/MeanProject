@@ -1,0 +1,16 @@
+<div class="text-center justify-content-center"  >
+    <form #editForm="ngForm" (ngSubmit)="updateItem()" >
+      <label>Name:</label>
+      <input type="text" name="name" #name="ngModel" [(ngModel)]="editedItem.name" required>
+    
+      <label>Position:</label>
+      <input type="text" name="position" #position="ngModel" [(ngModel)]="editedItem.position" required>
+    
+      <label>Salary:</label>
+      <input type="Number" name="salary" #salary="ngModel" [(ngModel)]="editedItem.salary" required>
+    
+      <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+    
+    
+    </div>
