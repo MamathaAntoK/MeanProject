@@ -31,7 +31,7 @@ const jwt=require('jsonwebtoken')
 
 
 
-mongoose.connect('mongodb+srv://admin:admin123@cluster0.qlazmk7.mongodb.net/User?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://username:password@cluster0.qlazmk7.mongodb.net/Databasename?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
